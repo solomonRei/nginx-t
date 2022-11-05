@@ -1,0 +1,240 @@
+nginx-test_nginx_1 is up-to-date
+nginx-test_nginxinc_1 is up-to-date
+Attaching to nginx-test_nginx_1, nginx-test_nginxinc_1
+nginx_1     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx_1     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx_1     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx_1     | 2022/11/04 18:29:25 [notice] 1#1: using the "epoll" event method
+nginx_1     | 2022/11/04 18:29:25 [notice] 1#1: nginx/1.23.2
+nginx_1     | 2022/11/04 18:29:25 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6)
+nginx_1     | 2022/11/04 18:29:25 [notice] 1#1: OS: Linux 5.15.0-1019-aws
+nginx_1     | 2022/11/04 18:29:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+nginx_1     | 2022/11/04 18:29:25 [notice] 1#1: start worker processes
+nginx_1     | 2022/11/04 18:29:25 [notice] 1#1: start worker process 27
+nginx_1     | 37.233.3.75 - - [04/Nov/2022:18:29:41 +0000] "GET / HTTP/1.1" 403 555 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" "-"
+nginx_1     | 2022/11/04 18:29:41 [error] 27#27: *1 access forbidden by rule, client: 37.233.3.75, server: localhost, request: "GET / HTTP/1.1", host: "18.206.254.230:8081"
+nginx_1     | 37.233.3.75 - - [04/Nov/2022:18:29:41 +0000] "GET /favicon.ico HTTP/1.1" 403 555 "http://18.206.254.230:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" "-"
+nginx_1     | 2022/11/04 18:29:41 [error] 27#27: *1 access forbidden by rule, client: 37.233.3.75, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "18.206.254.230:8081", referrer: "http://18.206.254.230:8081/"
+nginx_1     | 2022/11/04 18:30:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting downnginx_1     | 2022/11/04 18:30:56 [notice] 27#27: gracefully shutting down
+nginx_1     | 2022/11/04 18:30:56 [notice] 27#27: exiting
+nginx_1     | 2022/11/04 18:30:56 [notice] 27#27: exit
+nginx_1     | 2022/11/04 18:30:56 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+nginx_1     | 2022/11/04 18:30:56 [notice] 1#1: worker process 27 exited with code 0
+nginx_1     | 2022/11/04 18:30:56 [notice] 1#1: exit
+nginx_1     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx_1     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx_1     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx_1     | 2022/11/04 18:31:09 [notice] 1#1: using the "epoll" event method
+nginx_1     | 2022/11/04 18:31:09 [notice] 1#1: nginx/1.23.2
+nginx_1     | 2022/11/04 18:31:09 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6)
+nginx_1     | 2022/11/04 18:31:09 [notice] 1#1: OS: Linux 5.15.0-1019-aws
+nginx_1     | 2022/11/04 18:31:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+nginx_1     | 2022/11/04 18:31:09 [notice] 1#1: start worker processes
+nginx_1     | 2022/11/04 18:31:09 [notice] 1#1: start worker process 28
+nginx_1     | 2022/11/04 19:08:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting downnginx_1     | 2022/11/04 19:08:55 [notice] 28#28: gracefully shutting down
+nginx_1     | 2022/11/04 19:08:55 [notice] 28#28: exiting
+nginx_1     | 2022/11/04 19:08:55 [notice] 28#28: exit
+nginx_1     | 2022/11/04 19:08:55 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+nginx_1     | 2022/11/04 19:08:55 [notice] 1#1: worker process 28 exited with code 0
+nginx_1     | 2022/11/04 19:08:55 [notice] 1#1: exit
+nginx_1     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx_1     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx_1     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx_1     | 2022/11/04 19:08:58 [notice] 1#1: using the "epoll" event method
+nginx_1     | 2022/11/04 19:08:58 [notice] 1#1: nginx/1.23.2
+nginx_1     | 2022/11/04 19:08:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6)
+nginx_1     | 2022/11/04 19:08:58 [notice] 1#1: OS: Linux 5.15.0-1019-aws
+nginx_1     | 2022/11/04 19:08:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+nginx_1     | 2022/11/04 19:08:58 [notice] 1#1: start worker processes
+nginx_1     | 2022/11/04 19:08:58 [notice] 1#1: start worker process 28
+nginx_1     | 2022/11/04 19:35:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting downnginx_1     | 2022/11/04 19:35:07 [notice] 28#28: gracefully shutting down
+nginx_1     | 2022/11/04 19:35:07 [notice] 28#28: exiting
+nginx_1     | 2022/11/04 19:35:07 [notice] 28#28: exit
+nginx_1     | 2022/11/04 19:35:07 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+nginx_1     | 2022/11/04 19:35:07 [notice] 1#1: worker process 28 exited with code 0
+nginx_1     | 2022/11/04 19:35:07 [notice] 1#1: exit
+nginx_1     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx_1     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx_1     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx_1     | 2022/11/04 19:35:11 [notice] 1#1: using the "epoll" event method
+nginxinc_1  | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginxinc_1  | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginxinc_1  | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginxinc_1  | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginxinc_1  | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginxinc_1  | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginxinc_1  | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginxinc_1  | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginxinc_1  | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginxinc_1  | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginxinc_1  | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginxinc_1  | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginxinc_1  | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginxinc_1  | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginxinc_1  | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginxinc_1  | 2022/11/04 20:01:59 [warn] 1#1: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /etc/nginx/nginx.conf:1
+nginxinc_1  | nginx: [warn] the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /etc/nginx/nginx.conf:1
+nginxinc_1  | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginxinc_1  | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginxinc_1  | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginxinc_1  | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginxinc_1  | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginxinc_1  | 2022/11/04 20:05:10 [warn] 1#1: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /etc/nginx/nginx.conf:1
+nginxinc_1  | nginx: [warn] the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /etc/nginx/nginx.conf:1
+nginxinc_1  | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginxinc_1  | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginxinc_1  | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginxinc_1  | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginxinc_1  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginxinc_1  | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginxinc_1  | 2022/11/04 20:44:04 [warn] 1#1: the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /etc/nginx/nginx.conf:1
+nginxinc_1  | nginx: [warn] the "user" directive makes sense only if the master process runs with super-user privileges, ignored in /etc/nginx/nginx.conf:1
+nginx_1     | 2022/11/04 19:35:11 [notice] 1#1: nginx/1.23.2
+nginx_1     | 2022/11/04 19:35:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6)
+nginx_1     | 2022/11/04 19:35:11 [notice] 1#1: OS: Linux 5.15.0-1019-aws
+nginx_1     | 2022/11/04 19:35:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+nginx_1     | 2022/11/04 19:35:11 [notice] 1#1: start worker processes
+nginx_1     | 2022/11/04 19:35:11 [notice] 1#1: start worker process 28
+nginx_1     | 37.233.3.75 - - [04/Nov/2022:19:41:41 +0000] "GET / HTTP/1.1" 403 555 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" "-"
+nginx_1     | 2022/11/04 19:41:41 [error] 28#28: *1 access forbidden by rule, client: 37.233.3.75, server: localhost, request: "GET / HTTP/1.1", host: "18.206.254.230:8081"
+nginx_1     | 37.233.3.75 - - [04/Nov/2022:19:41:42 +0000] "GET /favicon.ico HTTP/1.1" 403 555 "http://18.206.254.230:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" "-"
+nginx_1     | 2022/11/04 19:41:42 [error] 28#28: *1 access forbidden by rule, client: 37.233.3.75, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "18.206.254.230:8081", referrer: "http://18.206.254.230:8081/"
+nginx_1     | 2022/11/04 19:48:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting downnginx_1     | 2022/11/04 19:48:26 [notice] 28#28: gracefully shutting down
+nginx_1     | 2022/11/04 19:48:26 [notice] 28#28: exiting
+nginx_1     | 2022/11/04 19:48:26 [notice] 28#28: exit
+nginx_1     | 2022/11/04 19:48:26 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+nginx_1     | 2022/11/04 19:48:26 [notice] 1#1: worker process 28 exited with code 0
+nginx_1     | 2022/11/04 19:48:26 [notice] 1#1: exit
+nginx_1     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx_1     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx_1     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx_1     | 2022/11/04 19:48:29 [notice] 1#1: using the "epoll" event method
+nginx_1     | 2022/11/04 19:48:29 [notice] 1#1: nginx/1.23.2
+nginx_1     | 2022/11/04 19:48:29 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6)
+nginx_1     | 2022/11/04 19:48:29 [notice] 1#1: OS: Linux 5.15.0-1019-aws
+nginx_1     | 2022/11/04 19:48:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+nginx_1     | 2022/11/04 19:48:29 [notice] 1#1: start worker processes
+nginx_1     | 2022/11/04 19:48:29 [notice] 1#1: start worker process 27
+nginx_1     | 2022/11/04 19:54:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting downnginx_1     | 2022/11/04 19:54:00 [notice] 27#27: gracefully shutting down
+nginx_1     | 2022/11/04 19:54:00 [notice] 27#27: exiting
+nginx_1     | 2022/11/04 19:54:00 [notice] 27#27: exit
+nginx_1     | 2022/11/04 19:54:00 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+nginx_1     | 2022/11/04 19:54:00 [notice] 1#1: worker process 27 exited with code 0
+nginx_1     | 2022/11/04 19:54:00 [notice] 1#1: exit
+nginx_1     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx_1     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx_1     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx_1     | 2022/11/04 20:01:59 [notice] 1#1: using the "epoll" event method
+nginx_1     | 2022/11/04 20:01:59 [notice] 1#1: nginx/1.23.2
+nginx_1     | 2022/11/04 20:01:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6)
+nginx_1     | 2022/11/04 20:01:59 [notice] 1#1: OS: Linux 5.15.0-1019-aws
+nginx_1     | 2022/11/04 20:01:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+nginx_1     | 2022/11/04 20:01:59 [notice] 1#1: start worker processes
+nginx_1     | 2022/11/04 20:01:59 [notice] 1#1: start worker process 28
+nginx_1     | 2022/11/04 20:03:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting downnginx_1     | 2022/11/04 20:03:35 [notice] 28#28: gracefully shutting down
+nginx_1     | 2022/11/04 20:03:35 [notice] 28#28: exiting
+nginx_1     | 2022/11/04 20:03:35 [notice] 28#28: exit
+nginx_1     | 2022/11/04 20:03:35 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+nginx_1     | 2022/11/04 20:03:35 [notice] 1#1: worker process 28 exited with code 0
+nginx_1     | 2022/11/04 20:03:35 [notice] 1#1: exit
+nginx_1     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx_1     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx_1     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx_1     | 2022/11/04 20:05:10 [notice] 1#1: using the "epoll" event method
+nginx_1     | 2022/11/04 20:05:10 [notice] 1#1: nginx/1.23.2
+nginx_1     | 2022/11/04 20:05:10 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6)
+nginx_1     | 2022/11/04 20:05:10 [notice] 1#1: OS: Linux 5.15.0-1019-aws
+nginx_1     | 2022/11/04 20:05:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+nginx_1     | 2022/11/04 20:05:10 [notice] 1#1: start worker processes
+nginx_1     | 2022/11/04 20:05:10 [notice] 1#1: start worker process 28
+nginx_1     | 2022/11/04 20:13:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting downnginx_1     | 2022/11/04 20:13:05 [notice] 28#28: gracefully shutting down
+nginx_1     | 2022/11/04 20:13:05 [notice] 28#28: exiting
+nginx_1     | 2022/11/04 20:13:05 [notice] 28#28: exit
+nginx_1     | 2022/11/04 20:13:05 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+nginx_1     | 2022/11/04 20:13:05 [notice] 1#1: worker process 28 exited with code 0
+nginx_1     | 2022/11/04 20:13:05 [notice] 1#1: exit
+nginx_1     | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+nginx_1     | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+nginx_1     | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+nginx_1     | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+nginx_1     | /docker-entrypoint.sh: Configuration complete; ready for start up
+nginx_1     | 2022/11/04 20:44:04 [notice] 1#1: using the "epoll" event method
+nginx_1     | 2022/11/04 20:44:04 [notice] 1#1: nginx/1.23.2
+nginx_1     | 2022/11/04 20:44:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6)
+nginx_1     | 2022/11/04 20:44:04 [notice] 1#1: OS: Linux 5.15.0-1019-aws
+nginx_1     | 2022/11/04 20:44:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+nginx_1     | 2022/11/04 20:44:04 [notice] 1#1: start worker processes
+nginx_1     | 2022/11/04 20:44:04 [notice] 1#1: start worker process 27
+nginx_1     | 205.210.31.25 - - [04/Nov/2022:21:35:22 +0000] "\x16\x03\x01\x00\xCA\x01\x00\x00\xC6\x03\x03\x0E\x86\x99\xD1^'(!]\xB3\x96\x924>\xBFk\xBB]\xB6<jF\x82\x18u\xC3&\x12\xBDN\x9E\xF6\x00\x00h\xCC\x14\xCC\x13\xC0/\xC0+\xC00\xC0,\xC0\x11\xC0\x07\xC0'\xC0#\xC0\x13\xC0\x09\xC0(\xC0$\xC0\x14\xC0" 400 157 "-" "-"
+nginx_1     | 205.210.31.156 - - [04/Nov/2022:22:00:48 +0000] "GET / HTTP/1.1" 403 153 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+nginx_1     | 2022/11/04 22:00:48 [error] 27#27: *2 access forbidden by rule, client: 205.210.31.156, server: localhost, request: "GET / HTTP/1.1", host: "18.206.254.230:8081"
+nginx_1     | 87.236.176.22 - - [04/Nov/2022:22:37:33 +0000] "GET / HTTP/1.1" 403 153 "-" "Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)"
+nginx_1     | 2022/11/04 22:37:33 [error] 27#27: *3 access forbidden by rule, client: 87.236.176.22, server: localhost, request: "GET / HTTP/1.1", host: "18.206.254.230:8081"
+nginx_1     | 193.118.53.194 - - [04/Nov/2022:23:03:33 +0000] "GET / HTTP/1.1" 403 555 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36"
+nginx_1     | 2022/11/04 23:03:33 [error] 27#27: *4 access forbidden by rule, client: 193.118.53.194, server: localhost, request: "GET / HTTP/1.1", host: "18.206.254.230:8081"
+nginx_1     | 184.105.247.235 - - [05/Nov/2022:00:09:42 +0000] "GET / HTTP/1.1" 403 153 "-" "Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0"
+nginx_1     | 2022/11/05 00:09:42 [error] 27#27: *5 access forbidden by rule, client: 184.105.247.235, server: localhost, request: "GET / HTTP/1.1", host: "18.206.254.230:8081"
+nginx_1     | 198.235.24.35 - - [05/Nov/2022:01:06:14 +0000] "GET / HTTP/1.0" 403 153 "-" "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+nginx_1     | 2022/11/05 01:06:14 [error] 27#27: *6 access forbidden by rule, client: 198.235.24.35, server: localhost, request: "GET / HTTP/1.0"
+nginx_1     | 80.66.83.75 - - [05/Nov/2022:01:37:35 +0000] "\x16\x03\x01\x01\xA8\x01\x00\x01\xA4\x03\x03\xF6\x16\xC4\x93\x88E\xBF\xEEU8\x9F<\xED\x89\x88}\xF8Y\x02\x8B}@\xF2k\x92\x88\xAD|\xB2\x00A\xFD Q\x9D\x12\xE3\xCDE\xDA1%I\x82\x85\xE5]\xF4\xB9d\x9B<+\xB5\xEA\xBEk\xBA\x9BMh\x18dAA\x00\xC6\x13\x01\x13\x02\x13\x03\x13\x04\x13\x05\xC0,\xC00\x00\xA3\x00\x9F\xCC\xA9\xCC\xA8\xCC\xAA\xC0\xAF\xC0\xAD\xC0\xA3\xC0\x9F\xC0]\xC0a\xC0W\xC0S\x00\xA7\xC0+\xC0/\x00\xA2\x00\x9E\xC0\xAE\xC0\xAC\xC0\xA2\xC0\x9E\xC0\x5C\xC0`\xC0V\xC0R\x00\xA6\xC0$\xC0(\x00k\x00j\xC0s\xC0w\x00\xC4\x00\xC3\x00m\x00\xC5\xC0#\xC0'\x00g\x00@\xC0r\xC0v\x00\xBE\x00\xBD\x00l\x00\xBF\xC0" 400 157 "-" "-"
+nginx_1     | 64.62.197.167 - - [05/Nov/2022:02:16:22 +0000] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\xE4\xB2\xECis1+\xF8x/\x93c\x97\xBD\x1E4\x1B\xD8\xDF\x8Cs\x98C&\xC8E:\xBBF.h\x05\x00\x00\x1A\xC0/\xC0+\xC0\x11\xC0\x07\xC0\x13\xC0\x09\xC0\x14\xC0" 400 157 "-" "-"
+nginx_1     | 167.94.138.61 - - [05/Nov/2022:04:15:35 +0000] "GET / HTTP/1.1" 403 153 "-" "-"
+nginx_1     | 2022/11/05 04:15:35 [error] 27#27: *10 access forbidden by rule, client: 167.94.138.61, server: localhost, request: "GET / HTTP/1.1", host: "18.206.254.230:8081"
+nginx_1     | 167.94.138.61 - - [05/Nov/2022:04:15:35 +0000] "GET / HTTP/1.1" 403 153 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+nginx_1     | 2022/11/05 04:15:35 [error] 27#27: *11 access forbidden by rule, client: 167.94.138.61, server: localhost, request: "GET / HTTP/1.1", host: "18.206.254.230:8081"
+nginx_1     | 167.94.138.61 - - [05/Nov/2022:04:15:35 +0000] "PRI * HTTP/2.0" 400 157 "-" "-"
+nginx_1     | 192.241.206.50 - - [05/Nov/2022:04:23:29 +0000] "MGLNDD_18.206.254.230_8081" 400 157 "-" "-"
+nginx_1     | 2022/11/05 07:45:36 [error] 27#27: *14 access forbidden by rule, client: 35.153.176.144, server: localhost, request: "GET / HTTP/1.1", host: "18.206.254.230:8081"
+nginx_1     | 35.153.176.144 - - [05/Nov/2022:07:45:36 +0000] "GET / HTTP/1.1" 403 555 "-" "Mozilla/5.0 (Windows NT 6.2;en-US) AppleWebKit/537.32.36 (KHTML, live Gecko) Chrome/59.0.3079.91 Safari/537.32"
